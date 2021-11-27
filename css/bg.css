@@ -1,0 +1,21 @@
+.bg {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  position: absolute;
+  z-index: -1;
+}
+
+@media screen and (min-width: 1366px) {
+  img {
+    width: 100vw;
+  }
+}
+@media screen and (max-width: 1366px) {
+  img {
+    height: 100vh;
+  }
+}
