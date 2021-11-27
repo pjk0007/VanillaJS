@@ -3,6 +3,7 @@
 @import "clock.css";
 @import "weather.css";
 @import "login.css";
+@import "font.css";
 
 * {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
@@ -19,7 +20,6 @@ header {
   justify-items: center;
   align-items: center;
   background-color: rgba(0, 0, 0, 0.4);
-  height: 10vh;
 }
 
 .hide {

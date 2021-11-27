@@ -1,0 +1,43 @@
+@media screen and (min-width: 1000px) {
+  header {
+    height: 80px;
+  }
+  .clock {
+    font-size: 50px;
+  }
+  .weather {
+    font-size: 30px;
+  }
+  .login input {
+    font-size: 30px;
+    width: 20vw;
+  }
+  .info .user_name {
+    font-size: 40px;
+  }
+  .info button {
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  header {
+    height: 8vw;
+  }
+  .clock {
+    font-size: 5vw;
+  }
+  .weather {
+    font-size: 3vw;
+  }
+  .login input {
+    font-size: 3vw;
+    width: 20vw;
+  }
+  .info .user_name {
+    font-size: 4vw;
+  }
+  .info button {
+    font-size: 2vw;
+  }
+}
