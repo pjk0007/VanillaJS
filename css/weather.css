@@ -1,0 +1,8 @@
+.weather {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  color: azure;
+  font-size: 3vh;
+}
