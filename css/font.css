@@ -24,6 +24,9 @@
   .todo__input form input:nth-child(1) {
     font-size: 30px;
   }
+  .todo__input form button {
+    font-size: 30px;
+  }
 }
 
 @media screen and (max-width: 1000px) {
@@ -50,6 +53,9 @@
     height: 7vw;
   }
   .todo__input form input:nth-child(1) {
+    font-size: 3vw;
+  }
+  .todo__input form button {
     font-size: 3vw;
   }
 }
