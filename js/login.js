@@ -27,6 +27,7 @@ function onLoginSubmit(event) {
 
 function onLogoutClick() {
   localStorage.removeItem(USER_KEY);
+  input.value = "";
   paintLoginForm();
 }
 

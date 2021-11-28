@@ -1,0 +1,47 @@
+.todo {
+  margin-top: 10vh;
+}
+
+.todo__input {
+  display: flex;
+  width: 60vw;
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 20px;
+}
+
+.todo__input form {
+  width: 100%;
+  margin: 0 3%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.todo__input form input {
+  width: 80%;
+  background-color: rgba(0, 0, 0, 0);
+  border: none;
+  border-radius: 20px;
+  color: azure;
+}
+
+.todo__input form input::placeholder {
+  color: rgb(177, 184, 184);
+}
+
+.todo__input form button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(255, 255, 255, 0.4);
+  height: 70%;
+  aspect-ratio: 1 / 1;
+  border: none;
+  border-radius: 20px;
+  color: rgba(32, 32, 32, 0.8);
+  font-size: 1.5vw;
+}
+
+.todo__input form button:hover {
+  background-color: rgba(255, 255, 255, 0.8);
+}

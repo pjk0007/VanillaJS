@@ -18,6 +18,12 @@
   .info button {
     font-size: 20px;
   }
+  .todo__input {
+    height: 70px;
+  }
+  .todo__input form input:nth-child(1) {
+    font-size: 30px;
+  }
 }
 
 @media screen and (max-width: 1000px) {
@@ -39,5 +45,11 @@
   }
   .info button {
     font-size: 2vw;
+  }
+  .todo__input {
+    height: 7vw;
+  }
+  .todo__input form input:nth-child(1) {
+    font-size: 3vw;
   }
 }
