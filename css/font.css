@@ -27,6 +27,15 @@
   .todo__input form button {
     font-size: 30px;
   }
+  .todo__list {
+    font-size: 40px;
+  }
+  .todo__list > div {
+    padding: 10px 50px;
+  }
+  .todo__list button {
+    font-size: 20px;
+  }
 }
 
 @media screen and (max-width: 1000px) {
@@ -57,5 +66,14 @@
   }
   .todo__input form button {
     font-size: 3vw;
+  }
+  .todo__list {
+    font-size: 4vw;
+  }
+  .todo__list > div {
+    padding: 1vw 5vw;
+  }
+  .todo__list button {
+    font-size: 2vw;
   }
 }
